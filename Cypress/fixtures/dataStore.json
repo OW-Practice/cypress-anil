@@ -1,0 +1,16 @@
+{
+ 
+    "Credentials": {
+      "url": "https://www.cp.pt/passageiros/en/buy-tickets",
+      "fromPlace": "Lagos",
+      "toPlace": "Porto - Campanha"
+     
+    },
+    "locations": {
+      "fromPlace": "Lagos",
+      "toPlace": "Porto - Campanha"
+     
+    }
+    
+   
+  }
