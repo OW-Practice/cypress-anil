@@ -20,7 +20,7 @@ describe('comboios-De-Portugal', () => {
         cy.clickOnSubmitButton()
         cy.verifyThatdepartPlaceOnServicePage(userTestData.locations.fromPlace)
         cy.verifyThatArrivalPlaceOnServicePage(userTestData.locations.fromPlace)
-        cy.clickOnCancleButton()
+        cy.clickOnCancelButton()
         cy.verifyCorrectUrlIsDisplayed(userTestData.Credentials.url);
         cy.verifyThatFormPlaceDisplayed(userTestData.locations.fromPlace)
         cy.verifyThatToPlaceDisplayed(userTestData.locations.fromPlace)

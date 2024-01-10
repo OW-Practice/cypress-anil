@@ -7,7 +7,7 @@ Cypress.Commands.add('verifyThatdepartPlaceOnServicePage', (departPlace) => {
 Cypress.Commands.add('verifyThatArrivalPlaceOnServicePage', (arrivalPlace) => {
     cy.get(departplace).eq(2).should('be.exist').should('be.visible').should('have.text', arrivalPlace);
 })
-Cypress.Commands.add('clickOnCancleButton', () => {
+Cypress.Commands.add('clickOnCancelButton', () => {
     cy.get(cancleButton).should('be.exist').should('be.visible').click()
 })
 
