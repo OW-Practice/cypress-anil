@@ -1,0 +1,12 @@
+{
+    "AccountCreaion" : {
+      "url": "https://qaregression.finfolio.com/api/login",
+      "username":"support@finfolio.com",
+      "password": "Finfolio1",
+      "fileAs" : "FolioAccount1234567654",
+       "folioNumber": 234567890,
+       "name" : "Account",
+       "primaryContactId" : null,
+       "subType" : "ACTINDIVIDUAL"
+    }
+}
